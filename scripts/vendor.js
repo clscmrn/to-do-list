@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Declare List
+
+let quotes = [
+    
+]
