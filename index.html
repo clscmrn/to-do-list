@@ -9,31 +9,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productivity Manager</title>
-   <div class = "motivation">
-
-   
     <div class = "container">
         <div class = "app">
-            <h2>Productivity Manager</h2>
+            <header>
+                <h1>Productivity Manager</h1>
+            </header>
         </div>
     </div>
 </head> 
+<div class = "quotes">
+    <body>
+        <div id ="fact-display"></div>
+         </div>
+     </body>
+</div>
+<!--CREATE TO DO--> 
 <body>
-    <!--CREATE TO DO-->
-<div class="createToDo">
-    <input class="toDoInput" placeholder="Whats To-Do"></body>
-    <button type="button" class="addNewBtn">Add Task</button>
+<div class="create-todo">
+    <input class="todo-input" placeholder="Add new task...">
+    <button type="button" class="addnew-btn">Add Task</button>
 </div>
+</body>
     <!--TO DO LIST-->
-<br />
-<div class="toDoList">
-    <input type="checkbox">
-    <span id="toDo-item"></span>
-<br>
+<div class = "todo-container">
+    <ul class = "todo-list">
+     <div class="todo">
+        <li></li>
+        <button>Delete</button>
+        <button>Checked</button>
+    </div>
+  </ul>
 </div>
-
-
-
 </body>
 <script src="scripts/vendor.js"></script>
 <script src="scripts/app.js"></script>

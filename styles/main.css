@@ -1,20 +1,29 @@
+
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
     align-items: center;
+}
+.quotes {
+   text-align: left;
 }
 
 h2 {
     text-align: center;
     font-size: xx-large;
-    font-family: 'Fira Sans', sans-serif;
 }
  
 body {
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
     text-align: center;
     line-height: 1.6;
 }
 
-.createToDo {
+.create-todo {
     position: relative;
     width: 400px;
     box-sizing: border-box;
@@ -22,10 +31,9 @@ body {
     margin: auto;
   }
 
-  .toDoInput {
-    width: 100%;
+  .todo-input {
     border: 1px solid #ccc;
-    border-radius: 100px;
+    border-radius: 40px;
     padding: 10px 100px 10px 20px; 
     line-height: 1;
     box-sizing: border-box;
@@ -33,22 +41,23 @@ body {
     
   }
   
-  .addNewBtn {
-    position: absolute;
-    right: 3px; 
-    top: 3px;
-    bottom: 3px;
+  .addnew-btn {
+    position: relative;
+    right: 0px; 
+    top: 0px;
+    bottom: 0px;
     border: 0;
     background: #cbcbcb;
     color: rgb(0, 0, 0);
     outline: none;
     margin: 0;
-    padding: 0 10px;
+    padding: 10px;
     border-radius: 100px;
-    z-index: 2;
+    width: 90px;
+    
   }
 
-  .addNewBtn:hover {
+  .addnew-btn:hover {
     background-color: #4551ff;
     color: white;
   }
