@@ -37,6 +37,7 @@ var toDoList = {
         } else {
             this.parentNode.style.backgroundColor = "black";
             this.parentNode.style.color = "white";
+            checkedSound()
         }
     },
     keyPress: function(e) {
@@ -125,4 +126,9 @@ $('.random_bg').css({
   function play() {
     var audio = new Audio('sounds/crumple.mp3');
     audio.play();
+  }
+
+  function checkedSound() {
+    var audio = new Audio('sounds/laugh.mp3');
+    audio.checkedSound();
   }
