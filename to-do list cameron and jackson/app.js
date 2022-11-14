@@ -37,7 +37,7 @@ var toDoList = {
         } else {
             this.parentNode.style.backgroundColor = "black";
             this.parentNode.style.color = "white";
-            checkedSound()
+            checkedSound();
         }
     },
     keyPress: function(e) {
