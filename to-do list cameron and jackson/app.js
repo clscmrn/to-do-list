@@ -34,10 +34,10 @@ var toDoList = {
         if (this.parentNode.style.backgroundColor !== "mediumspringgreen") {
             this.parentNode.style.backgroundColor = "mediumspringgreen";
             this.parentNode.style.color = "black";
+            checkedSound();
         } else {
             this.parentNode.style.backgroundColor = "black";
             this.parentNode.style.color = "white";
-            checkedSound();
         }
     },
     keyPress: function(e) {
