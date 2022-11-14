@@ -34,7 +34,7 @@ var toDoList = {
         if (this.parentNode.style.backgroundColor !== "mediumspringgreen") {
             this.parentNode.style.backgroundColor = "mediumspringgreen";
             this.parentNode.style.color = "black";
-            checkedSound();
+            sound();
         } else {
             this.parentNode.style.backgroundColor = "black";
             this.parentNode.style.color = "white";
@@ -128,7 +128,7 @@ $('.random_bg').css({
     audio.play();
   }
 
-  function checkedSound() {
+  function sound() {
     var audio = new Audio('sounds/laugh.mp3');
-    audio.checkedSound();
+    audio.play();
   }
